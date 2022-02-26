@@ -4,6 +4,7 @@
 
 Aplikasi berbasis Web untuk pengawasan Rumah secara Real-Time.
 
-_List Progress_
+**List Progress**
 
-1. ...
+*Feb 26*
+1. Landing Page UI Design (Arya, Fauzan)
