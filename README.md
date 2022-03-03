@@ -10,6 +10,7 @@ _Feb 26_
 
 1. Landing Page UI Design (Arya, Fauzan)
 
-_March 1_
+_March 3_
 
 1. HTML and CSS for web page (Arya)
+2. Image Processing (Arya)
