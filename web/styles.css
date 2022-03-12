@@ -75,9 +75,11 @@
 .cam_frame {
   align-self: center;
   background-color: #c4c4c4;
-  height: 752px;
+  height: 720px;
   margin-top: 34px;
-  width: 1706px;
+  margin-left: 120px;
+  margin-right: 120px;
+  width: 1280px;
 }
 
 
