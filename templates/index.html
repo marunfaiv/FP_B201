@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Real Time Watcher</title>
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/styles.css') }}">
+  <!-- <script src="../static/js/main.js"></script> -->
+  <script src="{{ url_for('static',filename='js/main.js') }}"></script>
+</head>
+<body>
+  <div class="tab_widget">
+    <img src="{{ url_for('static', filename='img/realtimewatcher.png') }}" alt="logo" style="width: 100%; height: fit-content;">
+    <button class="tab_links">...</button>
+    <button class="tab_links">...</button>
+    <button class="tab_links">...</button>
+    <button class="tab_links">...</button>
+    <button class="tab_links">...</button>
+    <button class="tab_links">...</button>
+    <button class="tab_links">...</button>
+    <button class="tab_links">...</button>
+    <button class="tab_links">...</button>
+    <button class="tab_links">...</button>
+    <button class="tab_links">...</button>
+    <button class="tab_links">MORE RECORDING</button>
+  </div>
+
+  <div class="container">
+        <!-- <h3 class="mt-5">Live Webcam</h3> -->
+        <img src="{{ url_for('video_feed') }}" width="100%">
+  </div>
+
+  <div class="container_2">
+    <input type="text" id="currentTime" 
+    style="width: 100%; height: 100%; font-size:xxx-large; 
+    justify-content: center; align-items: center;" disabled>
+    <br><br>
+  </div>
+  <h2 style="align-items: center; justify-content: center; size: 20px;">TIME</h2>
+  <script src="js/main.js"></script>
+</body>
+</html>
