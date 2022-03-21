@@ -10,6 +10,7 @@ app = Flask(__name__)
 
 if os.environ.get('WERKZEUG_RUN_MAIN') or Flask.debug is False:
     cam = cv.VideoCapture(0)
+    cap = cv.VideoCapture('/home/arya/Videos/video.mp4')
 '''
 for ip camera use - rtsp://username:password@ip_address:554/user=username_password='password'_channel=channel_number_stream=0.sdp' 
 for local webcam use cv2.VideoCapture(0)
@@ -17,7 +18,7 @@ for local webcam use cv2.VideoCapture(0)
 
 def generate_frames():
     while True:
-        success, frame = cam.read()
+        success, frame = cap.read()
         if not success:
             break
         else:
