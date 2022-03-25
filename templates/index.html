@@ -12,7 +12,14 @@
 <body>
   <div class="tab_widget">
     <img src="{{ url_for('static', filename='img/realtimewatcher.png') }}" alt="logo" style="width: 100%; height: fit-content;">
-    <button class="tab_links">MORE RECORDING</button>
+    <button class="tab_links" onclick="openTab(event, 'folderTab')">MORE RECORDING</button>
+  </div>
+
+  <!-- Tab Content -->
+  <div id="folder" class="tabcontent">
+    <div class="base">
+      
+    </div>
   </div>
 
   <div class="container">
@@ -26,6 +33,15 @@
     justify-content: center; align-items: center;" disabled>
     <br><br>
   </div>
+
+  <div class="container_3">
+    <!-- <input type="text" src="{{ string_variable }}"
+    style="width: 100%; height: 100%; font-size:xxx-large; 
+    justify-content: center; align-items: center;" disabled>
+    <br><br> -->
+    <h1>"{{string_variables}}"</h1>
+  </div>
+
   <!-- <h2 style="align-items: center; justify-content: center; size: 20px;">TIME</h2> -->
   <script src="{{ url_for('static',filename='js/main.js') }}"></script>
 </body>
