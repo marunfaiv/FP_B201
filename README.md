@@ -19,13 +19,14 @@ _March 7_
 1. Riset YOLOv5 (Arya)
 
 _March 10_
-1. Riset UI Framework Streamlit Python (Fauzan)
-2. Riset Flask Python API for HTML, CSS, Javascript
+1. Riset UI Framework Streamlit API Python (Fauzan)
+2. Riset Flask Python API for HTML, CSS, Javascript (Arya)
 
 _March 14_
-1. Redesign UI (Fauzan)
+1. Redesign UI dan Logo (Fauzan)
 2. Building UI using HTML, CSS (Arya)
 3. Training new dataset for YOLOv5 (Arya)
+4. Building UI using Streamlit (Fauzan)
 
 _March 19_
 1. Connecting YOLOv5 to HTML (Arya)
@@ -33,7 +34,7 @@ _March 19_
 
 _March 25_
 1. Counting Person gimmick from YOLOv5 to HTML (Arya)
-2. Streamlit (Fauzan)
+2. Flask/Streamlit Implementation with YOLOV5 (Fauzan dan Arya)
 
 _March 26_
 1. Tambah Boostrap dan merapikan UI (Fauzan)
