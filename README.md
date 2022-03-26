@@ -29,6 +29,10 @@ _March 19_
 1. Connecting YOLOv5 to HTML (Arya)
 2. Creating time gimmick Javascript (Arya) 
 
+_March 20_
+1. Streamlit Loading Page (Fauzan)
+2. File Upload and Buffer File Mechanism (Fauzan) 
+
 _March 25_
 1. Counting Person gimmick from YOLOv5 to HTML (Arya)
 2. Flask/Streamlit Implementation with YOLOV5 (Fauzan dan Arya)
