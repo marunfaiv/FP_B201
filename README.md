@@ -1,6 +1,6 @@
 # Real-Time Watcher
 
-## HTML, CSS, Javascript, OpenCV, [Database]
+## HTML, CSS, Javascript, Python, Deep Learning 
 
 Aplikasi berbasis Web untuk pengawasan tempat secara Real-Time.
 
