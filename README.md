@@ -34,3 +34,6 @@ _March 19_
 _March 25_
 1. Counting Person gimmick from YOLOv5 to HTML (Arya)
 2. Streamlit (Fauzan)
+
+_March 26_
+1. Tambah Boostrap dan merapikan UI (Fauzan)
